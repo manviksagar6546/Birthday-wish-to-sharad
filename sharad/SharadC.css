@@ -1,0 +1,79 @@
+/* Existing styles from above remain */
+body{
+    text-align: center;
+    background-color: #ff5e78;
+    background-image: url("background.jpg");
+    background-size: cover;
+    color: #fff;
+    
+}
+
+#showMessageButton {
+  margin: 20px 0;
+  padding: 10px 20px;
+  background: #ff5e78;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+#showMessageButton:hover {
+  background:cadetblue;
+  color: coral;
+}
+
+#surpriseMessage {
+  font-size: 1.4rem;
+  color: #555;
+  font-weight: bold;
+  
+  color: #000000;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
+
+
+#countdown {
+  margin: 20px 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.confetti {
+  position: fixed;
+  top: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  pointer-events: none;
+  animation: fall linear forwards;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
+}
+
+#sharad_img{
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    background-image: url(sharadimg.png);
+    position: sticky;
+    left: 550px;
+    border-radius: 20px;
+
+}
